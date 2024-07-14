@@ -1,6 +1,6 @@
-body{background:linear-gradient(skyblue,green);}
-h4{color:blue;font-family:arial;text-align:center;}
-h1{color:red;text-align:center;display:block;}
+body{background:linear-gradient(skyblue,white,green);}
+h4{color:blue;font-family:helvetica;text-align:center;}
+h1{color:grey;text-align:center;display:block;}
 nav{width: 10%;
 height: 5px;}
 ul{
@@ -37,10 +37,10 @@ margin:0px;
     background-color:#00ff18;
 }
 
-h3{color:#fff155;font-family:courier;font-size:500px:}
+h3{color:#fff155;font-family: helvetica;font-size:500px:}
 
-h2{color:#00ff42; background-color:white:border:1px solid green;}
-p1{color:#ff00f1; background-color:#1c15ff;font-family:courier;font-size:25px}
+h2{color:gray; background-color:white;border:2px solid tomato; }
+p1{color:#ff00f1; background-color:#1c15ff;font-family:verdana;font-size:25px}
 p1: hover{background-color:tomato;}
 
 
@@ -49,20 +49,20 @@ p1: hover{background-color:tomato;}
 footer{background-color:yellow;
 text-align:center;}
 
-newsletter container {height:160px;width:30px;}
+newsletter container {height:340px;width:30px;}
 
 
-img{width:130px;height: 190px;transform:translate(30px,0px);
+img{width:455px;height: 500px;transform:translate(30px,0px);
    animation-name:img;
-   animation-duration:4s;
+   animation-duration:9s;
    animation-delay:1s;}
 
 @keyframes img{
-    0%{width:130px;height: 190px;transform:translate(30px,0px);
+    0%{width:455px;height: 500px;transform:translate(30px,0px);
    }
-    25%{width:230px;height: 200px;transform:translate(-30px,5px);
+    25%{width:300px;height:400px;transform:translate(-30px,5px);
    }
-    50%{width:250px;height: 190px;transform:translate(15px,0px);
+    50%{width:555px;height:600px;transform:translate(15px,0px);
    }
 }
 
