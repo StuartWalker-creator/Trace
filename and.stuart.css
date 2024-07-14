@@ -52,7 +52,7 @@ p1: hover{background-color:tomato;}
 footer{background-color:yellow;
 text-align:center;}
 
-newsletter container {height:340px;width:30px;}
+#newsletter{height:340px;width:30px;}
 
 
 img{width:455px;height: 500px;transform:translate(30px,0px);
