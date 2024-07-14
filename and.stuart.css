@@ -1,13 +1,14 @@
-body{background-color:skyblue}
+body{background:linear-gradient(skyblue,green);}
 h4{color:blue;font-family:arial;text-align:center;}
 h1{color:red;text-align:center;display:block;}
 nav{width: 10%;
 height: 5px;}
-ul{display:inline;
+ul{
 text-style-type:none;
 padding:9px;
 height:5px;
-width:100%; position:fixed;top:0;left:0;}
+width:100%; position:sticky;top:0;left:0;
+  display:flex;}
 li{float:left; width: ;}
 li a{display:block;
 background-color:tomato;border:10px solid green;}
