@@ -51,9 +51,19 @@ text-align:center;}
 newsletter container {height:160px;width:30px;}
 
 
-img{width:130px;height: 190px;}
+img{width:130px;height: 190px;transform:translate(30px,0px)
+   animation-name:img;
+   animation-duration:4s;
+   animation-delay:1s;}
 
-
+@keyframes img{
+    0%{width:130px;height: 190px;transform:translate(30px,0px)
+   }
+    25%{width:230px;height: 200px;transform:translate(-30px,5px)
+   }
+    50%{width:250px;height: 190px;transform:translate(15px,0px)
+   }
+}
 
 
 
