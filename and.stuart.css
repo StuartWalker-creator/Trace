@@ -1,4 +1,4 @@
-body{background-image:url(IMG_20240713_232146.jpg);size:cover;}
+body{background-image:url(IMG_20240713_232146.jpg); background-repeat:no-repeat;}
 h4{color:blue;font-family:helvetica;text-align:center;}
 h1{color:grey;text-align:center;display:block;}
 nav{width:100%;
